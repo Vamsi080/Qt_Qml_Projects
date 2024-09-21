@@ -81,8 +81,8 @@ CREATE TABLE MonthlyExpenses (
 
 ## Setup Summary
 
-   # Create the database AiraaCorporates.
-   # Use the command USE AiraaCorporates; to select the database.
-   # Create the tables using the provided SQL queries.
+   1.Create the database AiraaCorporates.
+   2.Use the command USE AiraaCorporates; to select the database.
+   3.Create the tables using the provided SQL queries.
 
  
