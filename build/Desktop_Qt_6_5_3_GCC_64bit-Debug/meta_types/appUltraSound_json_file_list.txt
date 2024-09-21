@@ -1,0 +1,1 @@
+/home/test/UltraSound/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/appUltraSound_autogen/include/../EWIEGA46WW/moc_database_manager.cpp.json

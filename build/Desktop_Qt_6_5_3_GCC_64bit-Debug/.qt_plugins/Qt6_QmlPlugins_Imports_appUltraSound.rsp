@@ -1,0 +1,14 @@
+-rootPath
+/home/test/UltraSound
+-cmake-output
+-output-file
+/home/test/UltraSound/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appUltraSound.cmake
+-importPath
+/home/test/UltraSound/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/UltraSound
+-importPath
+/home/test/UltraSound/build/Desktop_Qt_6_5_3_GCC_64bit-Debug
+-importPath
+/home/test/Qt/6.5.3/gcc_64/./qml
+-qrcFiles
+/home/test/UltraSound/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/.rcc/qmake_UltraSound.qrc
+/home/test/UltraSound/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/.rcc/appUltraSound_raw_qml_0.qrc

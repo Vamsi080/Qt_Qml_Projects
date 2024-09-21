@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/UltraSound/">
+    <file alias="main.qml">/home/test/UltraSound/main.qml</file>
+    <file alias="signup.qml">/home/test/UltraSound/signup.qml</file>
+    <file alias="login.qml">/home/test/UltraSound/login.qml</file>
+    <file alias="contact.qml">/home/test/UltraSound/contact.qml</file>
+    <file alias="employee_op.qml">/home/test/UltraSound/employee_op.qml</file>
+    <file alias="emp_exp.qml">/home/test/UltraSound/emp_exp.qml</file>
+    <file alias="emp_total.qml">/home/test/UltraSound/emp_total.qml</file>
+  </qresource>
+</RCC>
+

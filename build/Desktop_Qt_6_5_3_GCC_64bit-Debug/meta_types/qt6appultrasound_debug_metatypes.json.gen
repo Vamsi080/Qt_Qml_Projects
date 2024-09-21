@@ -1,0 +1,177 @@
+[
+    {
+        "classes": [
+            {
+                "className": "database_manager",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "employeeId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "username",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "email",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "password",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "phoneNo",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "gender",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "createEmployee",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "employeeId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "password",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "login",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "employeeId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "expenseDateStr",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "amount",
+                                "type": "double"
+                            },
+                            {
+                                "name": "description",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "createExpense",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "employeeId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "monthYear",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "calculateMonthlyExpenses",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "employeeId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "monthYear",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "getMonthlyExpenses",
+                        "returnType": "double"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "database_manager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "success",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "employeeCreated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "success",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "loginSuccessful",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "success",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "expenseCreated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "success",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "monthlyExpensesCalculated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "total",
+                                "type": "double"
+                            }
+                        ],
+                        "name": "monthlyExpensesRetrieved",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "database_manager.h",
+        "outputRevision": 68
+    }
+]

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/UltraSound">/home/test/UltraSound/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/UltraSound</file>
+
+  </qresource>
+</RCC>

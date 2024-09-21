@@ -1,0 +1,4 @@
+module UltraSound
+typeinfo appUltraSound.qmltypes
+prefer :/UltraSound/
+

@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0af5c87d873fa339290d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UltraSound",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-831bb217a0c82168c446.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-75fda4e85e27a1298783.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-6fea3ffb3645fa044815.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-bfdf156b1de55c540c82.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUltraSound::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUltraSound-Debug-589149cd5eb251aa416b.json",
+					"name" : "appUltraSound",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUltraSound_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUltraSound_autogen-Debug-46e88d66f5c24283df7c.json",
+					"name" : "appUltraSound_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUltraSound_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUltraSound_autogen_timestamp_deps-Debug-b57a7a07c7039295414a.json",
+					"name" : "appUltraSound_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUltraSound_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUltraSound_qmlimportscan-Debug-e27ec021d0054f59bfdc.json",
+					"name" : "appUltraSound_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUltraSound_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUltraSound_qmllint-Debug-adbda018790b5f609335.json",
+					"name" : "appUltraSound_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUltraSound_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUltraSound_qmllint_json-Debug-873a14ff6905e0519e90.json",
+					"name" : "appUltraSound_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUltraSound_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUltraSound_qmllint_module-Debug-516f1fb22cb67885a833.json",
+					"name" : "appUltraSound_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUltraSound_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUltraSound_qmltyperegistration-Debug-97ae711e325baa4d7129.json",
+					"name" : "appUltraSound_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUltraSound_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUltraSound_tooling-Debug-284e86e7f3f31fa2f961.json",
+					"name" : "appUltraSound_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/test/UltraSound/build/Desktop_Qt_6_5_3_GCC_64bit-Debug",
+		"source" : "/home/test/UltraSound"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
