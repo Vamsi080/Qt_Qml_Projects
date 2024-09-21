@@ -1,18 +1,43 @@
-Creating a Database:
----------------------
-1.)To create a new database, use the following query:
-    CREATE DATABASE AiraaCorporates;
+# AiraaCorporates Database Setup
 
-Using the Database:
--------------------
-2.)To select the database for use:
-    USE AiraaCorporates;
-    
-Creating Tables:
------------------
-1. Employee Table:
-   ---------------
-/*
+This repository contains the SQL scripts required to set up the `AiraaCorporates` database. It includes definitions for the `Employee`, `Expenses`, and `MonthlyExpenses` tables. 
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Database Creation](#database-creation)
+- [Using the Database](#using-the-database)
+- [Creating Tables](#creating-tables)
+  - [Employee Table](#1-employee-table)
+  - [Expenses Table](#2-expenses-table)
+  - [MonthlyExpenses Table](#3-monthlyexpenses-table)
+- [Setup Summary](#setup-summary)
+
+## Introduction
+
+Before running the application on "LocalHost," you need to set up the database. Follow the instructions below to create the database and its tables.
+
+## Database Creation
+
+To create a new database, use the following SQL query:
+
+```sql
+CREATE DATABASE AiraaCorporates;
+```
+## Using the Database
+
+To select the database for use, execute:
+
+```sql
+USE AiraaCorporates;
+```
+## Creating Tables
+
+# 1. Employee Table
+
+    To create the Employee table, execute the following SQL statement:
+
+```sql
 CREATE TABLE Employee (
     id INT NOT NULL AUTO_INCREMENT,
     employee_id VARCHAR(50) NOT NULL UNIQUE,
@@ -24,11 +49,12 @@ CREATE TABLE Employee (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
 );
-*/
+```
+# 2. Expenses Table
 
-2.Expenses Table:
-------------------
-/* 
+    To create the Expenses table, run the following SQL command:
+
+```sql
 CREATE TABLE Expenses (
     id INT NOT NULL AUTO_INCREMENT,
     employee_id VARCHAR(50) NOT NULL,
@@ -38,11 +64,11 @@ CREATE TABLE Expenses (
     PRIMARY KEY (id),
     FOREIGN KEY (employee_id) REFERENCES Employee(employee_id)
 );
-*/
+```
+# 3. MonthlyExpenses Table
 
-3.MonthlyExpenses Table:
------------------------
-/*
+    To create the MonthlyExpenses table, use this SQL query:
+```sql
 CREATE TABLE MonthlyExpenses (
     id INT NOT NULL AUTO_INCREMENT,
     employee_id VARCHAR(50) NOT NULL,
@@ -51,10 +77,12 @@ CREATE TABLE MonthlyExpenses (
     PRIMARY KEY (id),
     FOREIGN KEY (employee_id) REFERENCES Employee(employee_id)
 );
-*/
+```
 
-This document provides all the queries needed to create a database named AiraaCorporates and the corresponding tables: Employee, Expenses, and MonthlyExpenses.
+## Setup Summary
 
-We need to set this Before running the Application in "LocalHost".
+   # Create the database AiraaCorporates.
+   # Use the command USE AiraaCorporates; to select the database.
+   # Create the tables using the provided SQL queries.
 
-
+ 
